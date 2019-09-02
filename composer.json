@@ -1,6 +1,6 @@
 {
-    "name": "adamwathan/laravel-preset",
-    "description": "Adam Wathan's Laravel Frontend Preset",
+    "name": "threecrowco/laravel-preset",
+    "description": "Modified Adam Wathan's Laravel Frontend Preset",
     "keywords": ["laravel", "preset"],
     "license": "MIT",
     "require": {
