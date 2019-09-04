@@ -21,7 +21,7 @@ This package isn't on Packagist (yet), so to get started, add it as a repository
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/adamwathan/laravel-preset"
+        "url": "https://github.com/threecrow/laravel-preset"
     }
 ]
 ```
