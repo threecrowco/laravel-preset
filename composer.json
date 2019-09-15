@@ -8,13 +8,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NothingWorks\\LaravelPreset\\": "src/"
+            "ThreeCrowCo\\LaravelPreset\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NothingWorks\\LaravelPreset\\PresetServiceProvider"
+                "ThreeCrowCo\\LaravelPreset\\PresetServiceProvider"
             ]
         }
     }

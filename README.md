@@ -21,7 +21,7 @@ This package isn't on Packagist (yet), so to get started, add it as a repository
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/threecrow/laravel-preset"
+        "url": "https://github.com/threecrowco/laravel-preset"
     }
 ]
 ```
@@ -29,7 +29,7 @@ This package isn't on Packagist (yet), so to get started, add it as a repository
 Next, run this command to add the preset to your project:
 
 ```
-composer require adamwathan/laravel-preset --dev
+composer require threecrowco/laravel-preset --dev
 ```
 
 Finally, apply the scaffolding by running:

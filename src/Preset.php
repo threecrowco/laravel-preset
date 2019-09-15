@@ -1,6 +1,6 @@
 <?php
 
-namespace NothingWorks\LaravelPreset;
+namespace ThreeCrowCo\LaravelPreset;
 
 use Illuminate\Support\Arr;
 use Illuminate\Container\Container;
@@ -31,7 +31,6 @@ class Preset extends BasePreset
         ], Arr::except($packages, [
             'bootstrap',
             'bootstrap-sass',
-            'jquery',
             'popper.js',
         ]));
     }

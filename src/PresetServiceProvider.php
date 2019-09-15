@@ -1,6 +1,6 @@
 <?php
 
-namespace NothingWorks\LaravelPreset;
+namespace ThreeCrowCo\LaravelPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
@@ -9,11 +9,11 @@ class PresetServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        PresetCommand::macro('nothingworks', function ($command) {
+        PresetCommand::macro('threecrowco', function ($command) {
             Preset::install();
 
-            $command->info('NothingWorks scaffolding installed successfully.');
-            $command->info('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
+            $command->info('Tailwind CSS scaffolding installed successfully.');
+            $command->info('Please run "yarn && yarn run dev" to compile your fresh scaffolding.');
         });
     }
 }
