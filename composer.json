@@ -1,11 +1,12 @@
 {
     "name": "threecrowco/laravel-preset",
-    "description": "Modified Adam Wathan's Laravel Frontend Preset",
+    "description": "Tailwind CSS Frontend Preset for Laravel 6",
     "keywords": ["laravel", "preset"],
     "license": "MIT",
     "require": {
         "laravel/framework": "^6.0"
     },
+    "minimum-stablity": "dev",
     "autoload": {
         "psr-4": {
             "ThreeCrowCo\\LaravelPreset\\": "src/"
